@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my api title</title>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        write animale name to get a fact about it, cat is by default
+        <form onsubmit="showRandomFact()">
+            <input id="animalName" placeholder="Animal name" type="text">
+            <button type="submit">Show random fact</button>
+        </form>
+
+        <h1>Fact about the animal</h1>
+
+        <h3 id="theFact"></h3>
+        <button onclick="saveToFavorites()" id="saveToFavorites">Save to my favorite facts</button>
+        <button onclick="showFavorites()" id="showMyFavorites">Show my favorite facts</button>
+        <ul id="myFavoritesList">
+        </ul>
+
+
+
+    </main>
+    <footer>
+    </footer>
+
+</body>
+
+</html>

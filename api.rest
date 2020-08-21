@@ -1,0 +1,22 @@
+GET http://localhost:3000/api/facts
+
+#######
+
+POST http://localhost:3000/api/facts
+Content-Type: application/json
+
+{
+    "hey": "hello",
+    "asdasd": "asdsad"
+}
+
+##########
+
+Put http://localhost:3000/api/facts
+
+###############
+
+DELETE http://localhost:3000/api/facts
+
+
+########
