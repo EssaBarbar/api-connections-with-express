@@ -29,4 +29,4 @@ app.use((req, res) => {
 })
 
 
-app.listen(3000, () => { console.log("server up") })
+app.listen(3002, () => { console.log("server up") })
